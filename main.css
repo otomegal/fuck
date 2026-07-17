@@ -11,6 +11,7 @@
                 background-image: url("assets/backgrounds/yayss.png");
                 background-size: cover;
                 background-attachment: fixed;
+                line-height: 18px;
             }
 
             * {
@@ -48,6 +49,8 @@
                 font-size: 35px;
                 font-family: Felipa;
                 font-weight: 100;
+                padding-top: 18px;
+                padding-bottom: 18px;
             }
 
             .nav a {
@@ -228,10 +231,10 @@ font-family:Georgia, 'Times New Roman', Times, serif;
                 font-weight: 400;
                 color: black;
                 font-size: 150%;
-                margin-top: 10px;
+                margin-top: 18px;
                 border-bottom: 2px dotted black;
                 margin-right: 10px;
-                margin-bottom: 2px;
+                margin-bottom: 3px;
                 margin-left: 30px;
             }
 
