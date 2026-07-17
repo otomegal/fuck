@@ -1,0 +1,223 @@
+/*
+
+Created by Wei in his Stead. This website is under the MIT License.
+Do what you will. -- HouseofSpiders@proton.me
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-image: url("assets/backgrounds/laundry.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.wrapper {
+    background-color: transparent;
+    width: 470px;
+    height: auto;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+    font-family: roboto;
+}
+
+.heading, .credits {
+    z-index: 2;
+    font-family: homemade apple;
+    font-size: 15px;
+    margin-bottom: 6px;
+    margin-left: 16px;
+    color: white;
+    text-shadow: 0px 0px 3px black;
+}
+
+.credits {
+    margin-top: 10px;
+    font-family: roboto;
+    font-size: 14px;
+    text-align: right;
+}
+
+.credits a{
+    color: white;
+}
+
+.card {
+    background-color: green;
+    width: 100%;
+    height: 410px;
+    padding: 10px;
+    border-image-slice: 116 104 116 104;
+border-image-width: 30px 27px 30px 27px;
+border-image-outset: 16px 16px 16px 16px;
+border-image-repeat: round repeat;
+border-image-source: url("assets/borders/main.png");
+border-style: solid;
+background-image: url("assets/backgrounds/p6.webp");
+background-size: 10%;
+}
+
+nav {
+    float: left;
+    width: 33%;
+    background-color: transparent;
+    height: 390px;
+    padding-top: 10px;
+}
+
+.margin {
+    position: relative;
+    left: 5px;
+}
+
+.nav-links {
+    font-family: "Jetbrains Mono", sans-serif;
+    font-size: 14.5px;
+}
+
+.nav-links .link {
+    width: 95%;
+    background: white;
+    text-align: left;
+    padding: 3px;
+    margin-bottom: 5px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.nav-links a {
+    position: relative;
+    top: -2px;
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+}
+
+.nav-links .link::before {
+    content: "";
+    background-color: transparent;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    margin-left: 7px;
+    margin-right: 10px;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*page links*/
+.nav-links .link:nth-child(1)::before {
+    background-image: url("assets/indexpixels/phone4.gif");
+}
+.nav-links .link:nth-child(2)::before {
+    background-image: url("assets/indexpixels/music-keyboard-0668.gif");
+}
+.nav-links .link:nth-child(3)::before {
+    background-image: url("assets/indexpixels/pixiheart.gif");
+}
+/*social links*/
+.nav-links .link:nth-child(5)::before {
+    background-image: url("assets/indexpixels/3359160tz5ejxly39.png");
+}
+.nav-links .link:nth-child(6)::before {
+    background-image: url("assets/indexpixels/pins-018.gif");
+}
+.nav-links .link:nth-child(7)::before {
+    background-image: url("assets/indexpixels/lwhitewing.gif");
+}
+
+.nav-links h2 {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: -9px;
+    margin-top: 5px;
+    font-family: Homemade Apple;
+}
+
+.container {
+    float: right;
+    width: 63%;
+    background-color: transparent;
+    height: 100%;
+    margin-right: 6px;
+} 
+
+header {
+    width: 100%;
+    height: 30%;
+    background-color: blue;
+    margin-bottom: 19px;
+    border-image-slice: 37 38 43 39;
+border-image-width: 20px 20px 20px 20px;
+border-image-outset: 7px 7px 7px 7px;
+border-image-repeat: round round;
+border-image-source: url("assets/borders/container.png");
+border-style: solid;
+background-image: url("assets/rodion/thumb/stand.webp");
+background-size: 150%;
+background-position: center;
+border-radius: 15px;
+}
+
+header:hover {
+    background-image: url("assets/rodion/thumb/uptie.webp");
+    background-position-y: -20px;
+}
+
+.caption {
+    background: white;
+    width: 110px;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 14px;
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+a .caption {
+    color: black;
+}
+
+main {
+    width: 91.3%;
+    height: 59%;
+    background-color: rgb(255, 255, 255);
+    border-image-slice: 37 38 43 39;
+border-image-width: 20px 20px 20px 20px;
+border-image-outset: 7px 7px 7px 7px;
+border-image-repeat: round round;
+border-image-source: url("assets/borders/container.png");
+border-style: solid;
+padding-top: 15px;
+padding-right: 13px;
+padding-left: 13px;
+text-align: left;
+font-size: 15px;
+border-radius: 15px;
+}
+
+main a {
+    color: rgb(68, 68, 68);
+    text-decoration: underline;
+}
+
+.violet {
+    margin-left: -2px;
+    margin-top: -3px;
+    margin-right: 5px;
+    border-radius: 10px;
+    border: 1px dotted black;
+    float: left;
+}

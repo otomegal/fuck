@@ -1,0 +1,91 @@
+body {
+  background: #234047;
+  font-family: "Candara", "Open Sans", sans-serif;
+  font-size:16px;
+  color: white;
+  }
+  
+a {
+    color: #0783b9;
+  }
+  
+.tiny {
+  font-size: 9px;
+  margin: 0 auto;
+  text-align: center;
+  }
+  
+/*Everything in the main box goes in this*/
+.wrapper {
+  width: 500px;
+  border: 3px solid black;
+  margin: 0 auto;
+  top: 0px;
+  }
+  
+.header {
+  height: 260px;
+  border-bottom: 3px solid black;
+  margin: 0 auto;
+  overflow: hidden;
+  background: url("assets/music/S938_2.webp");
+  background-size:cover;
+  background-position: center;
+  }
+
+.header h1 {
+  font-weight: 400;
+  color: white;
+  text-align: right;
+  margin-bottom: 0px;
+  margin-top: 190px;
+  margin-right: 20px;
+  -webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: #000000;
+font-style: italic;
+font-family: 'Times New Roman', Times, serif;
+font-size: 60px;
+}
+
+.links {
+  background: black;
+  padding: 10px;
+  border-bottom: 3px solid black;
+  }
+  
+.links a {
+  color: white;
+  padding: 3px;
+  margin-left: 5px;
+  margin-right:5px;
+  text-decoration: none;
+  font-size:17px;
+  }
+
+.main {
+  padding: 15px;
+  margin: 0 auto;
+  background: #222222;
+  }
+  
+/*Prevent overflow of large images in main text areas.*/
+.main img {
+  max-width: 100%;
+  height: auto;
+  }
+  
+.footer {
+  background: black;
+  padding: 20px;
+  padding-top:5px;
+  padding-bottom:5px;
+  border-top: 3px solid black;
+  font-size:14px;
+  }
+
+  .separator {
+    height: 2px;
+    background: #ffffff63;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }

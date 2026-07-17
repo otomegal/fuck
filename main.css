@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Felipa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+
+            body {
+                font-family: 'Helvetica', sans-serif;
+                margin: 0;
+                background-color: #ffffff;
+                background-size: 65px;
+                color: #fceaff;
+                background-image: url("assets/backgrounds/yayss.png");
+                background-size: cover;
+                background-attachment: fixed;
+            }
+
+            * {
+                box-sizing: border-box;
+            }
+
+            #container {
+                width: 700px;
+                margin: 0 auto;
+                margin-top: 30px;
+            }
+
+            #container a {
+                color: #ED64F5;
+            }
+
+            #header {
+                width: 100%;
+                background-color: transparent;
+                height: 290px;
+                background-image: url(assets/main/banner.png);
+                background-size: 100%;
+                position: relative;
+            }
+
+            .nav {
+                width: 380px;
+                text-align: center;
+                padding: 5px;
+                border-top: 2px dotted rgb(192, 172, 128);
+                border-bottom: 2px dotted rgb(192, 172, 128);
+                position: relative;
+                top: 210px;
+                left: 55px;
+                font-size: 35px;
+                font-family: Felipa;
+                font-weight: 100;
+            }
+
+            .nav a {
+                text-decoration: none;
+                color: rgb(192, 172, 128) !important;
+            }
+
+            #flex {
+                display: flex;
+                width: 685px;
+                margin: auto;
+                margin-top: 10px;
+            }
+
+            aside {
+                background-color: #241445;
+                width: 200px;
+                padding: 20px;
+                font-size: smaller;
+            }
+
+            main {
+                background-color: #ffffff00;
+                flex: 1;
+                padding: 20px;
+                order: 2;
+            }
+
+            #infobox {
+                width: 35%;
+                background: rgba(255, 255, 255, 0.527);
+                height: 348px;
+                float: left;
+                margin-right: 10px;
+                padding: 10px;
+                border-radius: 6%;
+            }
+
+            .pfp {
+                border-radius: 20px;
+                border: 2px dotted rgb(49, 40, 20);
+                position: relative;
+                height: 200px;
+            }
+
+            .caption {
+                z-index: 2;
+                position: absolute;
+                color:antiquewhite;
+                font-family: Homemade Apple;
+                text-shadow: -1px 0 rgb(49, 40, 20), 0 1px rgb(49, 40, 20), 1px 0 rgb(49, 40, 20), 0 -1px rgb(49, 40, 20);
+                font-size: 34px;
+                top: 147px;
+                left: 17px;
+            }
+
+            .credit {
+                text-align: right;
+                font-size: 12px;
+                margin-right: 12px;
+                margin-top: 4px;
+            }
+
+            .credit a{
+                color: white !important;
+            }
+
+            .table {
+                background-color: #fff5d2;
+                margin: auto;
+                width: 100%;
+                padding: 5px;
+                color: black;
+                margin-top: 10px;
+                border: 2px dotted rgb(49, 40, 20);
+                border-radius: 5px;
+            }
+
+            .point {
+                margin-bottom: 5px;
+            }
+
+            .point:nth-child(7) {
+                margin-bottom: 0px;
+            }
+
+            .point mark {
+                float: left;
+                background-color: #fff8df;
+                border: 1px solid #c4b993;
+                padding-left: 2px; padding-right: 2px;
+            }
+
+            .nan {
+                float: right;
+            }
+            
+            #main {
+                width: 44%;
+                background: transparent;
+                height: 30px;
+                float: left;
+                height: 350px;
+            }
+
+            .boxx {
+                width: 86%;
+                background: rgb(255, 255, 255);
+                background-image: url("assets/backgrounds/dry.png");
+                background-size: 100%;
+                height: 235px;
+                float: left;
+                margin-left: 19px;
+                margin-top:0px;
+                padding: 10px;
+                border-radius: 6%;
+                color: black;
+                border-image-slice: 167 210 159 205;
+border-image-width: 70px;
+border-image-outset: 60px;
+border-image-repeat: stretch stretch;
+border-image-source: url("assets/borders/goldbord.png");
+border-style: solid;
+font-family:Georgia, 'Times New Roman', Times, serif;
+            }
+
+            #stamps {
+                width: 18%;
+                background: transparent;
+                height: auto;
+                float: right;
+                text-align:center;
+                position: relative;
+                top: -1px;
+                height: 345px;
+            }
+            /*********/
+            
+            .cliques {
+                float: left;
+                width: 46.5%;
+                height: 320px;
+                margin-top: 37px;
+                background: rgb(255, 255, 255);
+                background-image: url("assets/backgrounds/dry.png");
+                background-size: cover;
+                color: black;
+                border-image-slice: 167 210 159 205;
+border-image-width: 70px;
+border-image-outset: 58px;
+border-image-repeat: stretch stretch;
+border-image-source: url("assets/borders/goldbord.png");
+border-style: solid;
+font-family:Georgia, 'Times New Roman', Times, serif;
+            }
+
+            .byfdni {
+                float: right;
+                width: 46.5%;
+                height: 320px;
+                margin-top: 37px;
+                background: rgb(255, 255, 255);
+                background-image: url("assets/backgrounds/dry.png");
+                background-size: cover;
+                color: black;
+                border-image-slice: 167 210 159 205;
+border-image-width: 70px;
+border-image-outset: 58px;
+border-image-repeat: stretch stretch;
+border-image-source: url("assets/borders/goldbord.png");
+border-style: solid;
+font-family:Georgia, 'Times New Roman', Times, serif;
+            }
+
+            .byfdni h1, .cliques h1 {
+                text-align: right;
+                font-style: italic;
+                font-weight: 400;
+                color: black;
+                font-size: 150%;
+                margin-top: 10px;
+                border-bottom: 2px dotted black;
+                margin-right: 10px;
+                margin-bottom: 2px;
+                margin-left: 30px;
+            }
+
+            .scrollbox {
+                width: 80%;
+                height: 77%;
+                background: rgba(255, 255, 255, 0.568);
+                margin: auto;
+                margin-top: 16px;
+                padding: 10px;
+                overflow-x: hidden; overflow-y: auto;
+            }
+
+            /********/
+
+            footer {
+                background-color: #ffffff00;
+                width: 100%;
+                height: 40px;
+                padding: 10px;
+                text-align: center;
+                text-shadow: 0px 0px 2px black;
+                color: #fff;
+            }
+
+            h1,
+            h2,
+            h3 {
+                color: #ED64F5;
+            }
+
+            h1 {
+                font-size: 25px;
+            }
+
+            strong {
+                color: #ED64F5;
+            }
+
+            .box {
+                background-color: #13092D;
+                border: 1px solid #ED64F5;
+                padding: 10px;
+            }
+
+            #topBar {
+                width: 100%;
+                height: 30px;
+                padding: 10px;
+                font-size: smaller;
+                background-color: #13092D;
+            }
