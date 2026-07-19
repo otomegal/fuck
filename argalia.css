@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+    background-image: url("assets/argalia/argaliascii.gif");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.wrapper {
+    background: rgba(0, 0, 0, 0);
+    max-width: 380px;
+    margin-top: 50px;
+    margin-left: 40px;
+    height: 680px;
+    color: white;
+    font-size: 20px;
+    line-height: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+    background: white;
+    font-size: 17px;
+    border: 2px solid black;
+    padding: 10px;
+    overflow-x: hidden; overflow-y: auto;
+    margin-top: 10px;
+    height: 620px;
+    color: black;
+}
+
+.box img {
+    margin: auto;
+}
+
+.header {
+    width: 100%;
+    background: green;
+    height: 130px;
+    background-image: url("assets/argalia/reverbbg.png");
+    background-size: 150%;
+    background-position: center;
+}
+
+@media only screen and (max-width: 550px) {
+  .wrapper {
+    width: 95%;
+    height: 846px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 80%;
+  }
+}
